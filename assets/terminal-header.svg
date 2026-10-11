@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Perfil de GitHub yamix-rx">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#081411"/><stop offset=".55" stop-color="#0d1117"/><stop offset="1" stop-color="#091a14"/></linearGradient>
+<linearGradient id="edge"><stop stop-color="#1e6e46"/><stop offset=".5" stop-color="#4ade80"/><stop offset="1" stop-color="#1e6e46"/></linearGradient>
+<radialGradient id="glow"><stop stop-color="#00ff8b" stop-opacity=".20"/><stop offset="1" stop-color="#00ff8b" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0 L0 0 0 28" fill="none" stroke="#16402c" stroke-width=".6" opacity=".35"/></pattern>
+<style>.mono{font-family:Consolas,Menlo,monospace}.sans{font-family:Inter,Arial,sans-serif}.blink{animation:bl 1s steps(2,end) infinite}.pulse{animation:pu 3s ease-in-out infinite}@keyframes bl{50%{opacity:0}}@keyframes pu{50%{opacity:.45}}</style>
+</defs>
+<rect x="1.5" y="1.5" width="1197" height="357" rx="24" fill="url(#bg)" stroke="#286044" stroke-width="3"/>
+<rect x="2" y="2" width="1196" height="356" rx="24" fill="url(#grid)"/>
+<circle cx="925" cy="186" r="260" fill="url(#glow)"/>
+<rect x="26" y="22" width="1148" height="41" rx="11" fill="#131e1b" stroke="#214435"/>
+<circle cx="50" cy="42" r="6" fill="#fa615d"/><circle cx="71" cy="42" r="6" fill="#f5bc4f"/><circle cx="92" cy="42" r="6" fill="#36cb75"/>
+<text x="600" y="48" text-anchor="middle" fill="#90aa9d" font-size="15" class="mono">yamix-rx@github : ~/portfolio</text>
+<text x="53" y="115" fill="#4ade80" font-size="19" class="mono">&gt;  ~ $ whoami</text>
+<text x="50" y="216" fill="#eafff2" font-size="77" font-weight="800" class="sans" letter-spacing="-3">yamix<tspan fill="#49ec93">-rx</tspan></text>
+<rect x="52" y="236" width="500" height="2" fill="url(#edge)"/>
+<text x="54" y="268" fill="#b9dec8" font-size="21" class="mono">C#  /  JavaScript  /  Node.js  /  MySQL</text>
+<text x="54" y="308" fill="#7ac7a0" font-size="18" class="mono">&gt; construyendo ideas con código<tspan class="blink" fill="#44f39c">_</tspan></text>
+<circle cx="972" cy="205" r="116" fill="#0b1b15" stroke="#1d5d3c" stroke-width="2"/>
+<circle cx="972" cy="205" r="92" fill="none" stroke="#1f5c3c" stroke-dasharray="7 7" stroke-width="2"/>
+<circle cx="972" cy="205" r="74" fill="none" stroke="#246c46"/>
+<path d="M856 205H1088 M972 89V321" stroke="#24754a" stroke-opacity=".35" stroke-width="2"/>
+<text x="972" y="226" text-anchor="middle" fill="#66efa4" font-size="75" font-weight="800" class="mono">RX</text>
+<circle cx="1062" cy="116" r="8" fill="#4ade80" class="pulse"/>
+<text x="1107" y="330" text-anchor="end" fill="#4ade80" font-size="15" class="mono">STATUS: ONLINE</text>
+</svg>
