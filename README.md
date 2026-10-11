@@ -18,14 +18,14 @@
 </div>
 
 - 💻 Desarrollo aplicaciones web y de escritorio.
-- 🛠️ Trabajo con **C#, JavaScript, Node.js, Express y MySQL**.
+- 🛠️ Desarrollo con **C#, JavaScript, TypeScript, React, Next.js, Node.js, Express y MySQL**.
 - 📂 Aquí comparto proyectos, prácticas y sistemas que voy construyendo.
 
 ## `yamix-rx@github ~ $ ls ./stack`
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=cs,js,nodejs,express,mysql,html,css,bootstrap,git,github,vscode,visualstudio&perline=6" alt="Tecnologías: C sharp, JavaScript, Node.js, Express, MySQL, HTML, CSS, Bootstrap, Git, GitHub, VS Code y Visual Studio" />
+<img src="https://skillicons.dev/icons?i=cs,js,ts,react,nextjs,nodejs,express,mysql,html,css,bootstrap,git,github,vscode,visualstudio&perline=6" alt="Tecnologías: C sharp, JavaScript, Node.js, Express, MySQL, HTML, CSS, Bootstrap, Git, GitHub, VS Code y Visual Studio" />
 
 </div>
 
@@ -56,9 +56,19 @@
 
 ## `yamix-rx@github ~ $ ls ./projects`
 
+**6 proyectos públicos**, desde aplicaciones de escritorio hasta plataformas web y monitoreo de dispositivos.
+
 <div align="center">
-  <a href="https://github.com/yamix-rx/Proyecto_Modelamiento"><img src="./assets/proyecto-modelamiento.svg" width="49%" alt="Repositorio Proyecto Modelamiento C#" /></a>
-  <a href="https://github.com/yamix-rx/SISTEMA-CONTROL-DE-ASISTENCIA"><img src="./assets/proyecto-asistencia.svg" width="49%" alt="Repositorio Sistema Control de Asistencia" /></a>
+  <a href="https://github.com/yamix-rx/SISTEMA-CONTROL-DE-ASISTENCIA"><img src="./assets/proyecto-asistencia.svg" width="49%" alt="Sistema de Control de Asistencia — JavaScript, Express y MySQL" /></a>
+  <a href="https://github.com/yamix-rx/Interfaz-Sistema-Gestion-Ventas"><img src="./assets/proyecto-ventas.svg" width="49%" alt="Interfaz Sistema Gestión Ventas — React, Vite, Express y MySQL" /></a>
+  <a href="https://github.com/yamix-rx/Arquitectura_Web_Monitoreo"><img src="./assets/proyecto-incubadora.svg" width="49%" alt="Arquitectura Web Monitoreo — Next.js, TypeScript y MQTT" /></a>
+  <a href="https://github.com/yamix-rx/Chifa_China_House_Web"><img src="./assets/proyecto-china-house.svg" width="49%" alt="Chifa China House Web — HTML, CSS y JavaScript" /></a>
+  <a href="https://github.com/yamix-rx/Proyecto_Modelamiento"><img src="./assets/proyecto-modelamiento.svg" width="49%" alt="Proyecto Modelamiento — C# y Windows Forms" /></a>
+  <a href="https://github.com/yamix-rx/Moanso_P"><img src="./assets/proyecto-cocina.svg" width="49%" alt="Moanso P — sistema de cocina en C# y Windows Forms" /></a>
+</div>
+
+<div align="center">
+  <a href="https://github.com/yamix-rx?tab=repositories"><img alt="Ver todos mis repositorios" src="https://img.shields.io/badge/VER_TODOS-MIS_REPOSITORIOS-1c9f61?style=for-the-badge&labelColor=101915&logo=github&logoColor=ffffff" /></a>
 </div>
 
 <div align="center">
