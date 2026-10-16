@@ -1,24 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="273" viewBox="0 0 1100 273" role="img" aria-label="Perfil de GitHub yamix-rx">
-<defs>
-<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#081411"/><stop offset=".55" stop-color="#0d1117"/><stop offset="1" stop-color="#091a14"/></linearGradient>
-<linearGradient id="edge"><stop stop-color="#1e6e46"/><stop offset=".5" stop-color="#4ade80"/><stop offset="1" stop-color="#1e6e46"/></linearGradient>
-<radialGradient id="glow"><stop stop-color="#00ff8b" stop-opacity=".20"/><stop offset="1" stop-color="#00ff8b" stop-opacity="0"/></radialGradient>
-<pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0 L0 0 0 28" fill="none" stroke="#16402c" stroke-width=".6" opacity=".35"/></pattern>
-<style>.mono{font-family:Consolas,Menlo,monospace}.sans{font-family:Inter,Arial,sans-serif}.blink{animation:bl 1s steps(2,end) infinite}.pulse{animation:pu 3s ease-in-out infinite}@keyframes bl{50%{opacity:0}}@keyframes pu{50%{opacity:.45}}</style>
-</defs>
-<rect x="1.5" y="1.5" width="1097" height="270" rx="19" fill="url(#bg)" stroke="#286044" stroke-width="3"/>
-<rect x="2" y="2" width="1096" height="269" rx="19" fill="url(#grid)"/>
-<rect x="21" y="20" width="1058" height="42" rx="8" fill="#13231c"/>
-<text x="40" y="47" class="mono" font-size="17" fill="#7ccf9d">&gt;</text>
-<text x="64" y="47" class="mono" font-size="17" fill="#b4d3c0">~/perfil/whoami.json</text>
-<text x="46" y="98" class="mono" font-size="19" fill="#a1a1aa">01</text>
-<text x="97" y="98" class="mono" font-size="22" fill="#b9dec8">{</text>
-<text x="46" y="134" class="mono" font-size="19" fill="#a1a1aa">02</text>
-<text x="120" y="134" class="mono" font-size="20"><tspan fill="#77e6ae">"usuario"</tspan><tspan fill="#d8efdf">: </tspan><tspan fill="#e5dc91">"yamix-rx",</tspan></text>
-<text x="46" y="170" class="mono" font-size="19" fill="#a1a1aa">03</text>
-<text x="120" y="170" class="mono" font-size="20"><tspan fill="#77e6ae">"enfoque"</tspan><tspan fill="#d8efdf">: </tspan><tspan fill="#e5dc91">"Aplicaciones web y de escritorio",</tspan></text>
-<text x="46" y="206" class="mono" font-size="19" fill="#a1a1aa">04</text>
-<text x="120" y="206" class="mono" font-size="20"><tspan fill="#77e6ae">"stack"</tspan><tspan fill="#d8efdf">: </tspan><tspan fill="#e5dc91">["C#", "JavaScript", "Node.js", "MySQL"]</tspan></text>
-<text x="46" y="242" class="mono" font-size="19" fill="#a1a1aa">05</text>
-<text x="97" y="242" class="mono" font-size="22" fill="#b9dec8">}</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 270" width="1100" height="270" role="img" aria-label="Quién soy, perfil profesional RX">
+<defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#0a1820"/><stop offset="1" stop-color="#10271e"/></linearGradient><style>.mono{font-family:Consolas,Menlo,monospace}</style></defs>
+<rect x="1.5" y="1.5" width="1097" height="267" rx="20" fill="url(#bg)" stroke="#2b6656" stroke-width="3"/>
+<rect x="22" y="18" width="1056" height="40" rx="10" fill="#132931"/>
+<circle cx="44" cy="38" r="5" fill="#fb7185"/><circle cx="61" cy="38" r="5" fill="#fbbf24"/><circle cx="78" cy="38" r="5" fill="#4ade80"/>
+<text x="105" y="43" class="mono" font-size="15" fill="#a5c0bb">about-rx.json</text>
+<text x="34" y="93" class="mono" fill="#66867f" font-size="18">01</text><text x="80" y="93" class="mono" fill="#d4eee5" font-size="20">{</text>
+<text x="34" y="129" class="mono" fill="#66867f" font-size="18">02</text><text x="105" y="129" class="mono" font-size="18"><tspan fill="#67e8f9">"perfil"</tspan><tspan fill="#dcece7">: </tspan><tspan fill="#a7f3d0">"RX · desarrollador en formación",</tspan></text>
+<text x="34" y="164" class="mono" fill="#66867f" font-size="18">03</text><text x="105" y="164" class="mono" font-size="18"><tspan fill="#67e8f9">"formacion"</tspan><tspan fill="#dcece7">: </tspan><tspan fill="#a7f3d0">"Ingeniería de Sistemas Computacionales",</tspan></text>
+<text x="34" y="199" class="mono" fill="#66867f" font-size="18">04</text><text x="105" y="199" class="mono" font-size="18"><tspan fill="#67e8f9">"intereses"</tspan><tspan fill="#dcece7">: </tspan><tspan fill="#a7f3d0">["Desarrollo web", "APIs", "Bases de datos"],</tspan></text>
+<text x="34" y="234" class="mono" fill="#66867f" font-size="18">05</text><text x="80" y="234" class="mono" fill="#d4eee5" font-size="20">}</text>
 </svg>
