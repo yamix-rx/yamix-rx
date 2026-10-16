@@ -62,7 +62,7 @@ Una selección de proyectos que reflejan mi trabajo en **desarrollo full-stack, 
 | **[Moanso P](https://github.com/yamix-rx/Moanso_P)** | Proyecto de aplicación de escritorio para gestión de cocina. | C# · Windows Forms |
 
 <div align="center">
-  <a href="https://github.com/yamix-rx?tab=repositories"><img src="https://img.shields.io/badge/VER_TODOS_MIS_REPOSITORIOS-→-1d9e75?style=for-the-badge&labelColor=10211e&logo=github&logoColor=white" alt="Ver todos mis repositorios" /></a>
+  <a href="https://github.com/yamix-rx?tab=repositories"><img src="https://img.shields.io/badge/VER_TODOS-MIS_REPOSITORIOS-1d9e75?style=for-the-badge&labelColor=10211e&logo=github&logoColor=white" alt="Ver todos mis repositorios" /></a>
 </div>
 
 ## `$ ./github-activity.sh`
