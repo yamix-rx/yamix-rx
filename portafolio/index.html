@@ -4,12 +4,19 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#0b0d13" />
-  <meta name="description" content="Portafolio personal de RX (yamix-rx). Proyectos de desarrollo web, software y experiencias interactivas." />
+  <meta name="description" content="RX — estudiante de Ingeniería de Sistemas Computacionales y desarrollador de software. Proyectos con React, Node.js, Java, C#, MySQL y tecnologías web." />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="RX — Portafolio de desarrollo" />
   <meta property="og:description" content="Desarrollo web, software y proyectos que convierten ideas en experiencias digitales." />
   <meta property="og:image" content="https://avatars.githubusercontent.com/u/187081218?v=4" />
-  <title>RX — Desarrollador creativo</title>
+  <meta name="robots" content="index, follow" />
+  <meta name="color-scheme" content="dark light" />
+  <meta property="og:url" content="https://yamix-rx-portafolio.vercel.app/" />
+  <meta property="og:locale" content="es_PE" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="canonical" href="https://yamix-rx-portafolio.vercel.app/" />
+  <title>RX | Desarrollador de Software — Portafolio</title>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"RX","alternateName":"yamix-rx","url":"https://yamix-rx-portafolio.vercel.app/","sameAs":["https://github.com/yamix-rx"],"knowsAbout":["Ingeniería de Sistemas Computacionales","React","JavaScript","TypeScript","Node.js","MySQL","Java","C#"]}</script>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,6 +25,8 @@
   <script src="script.js" defer></script>
 </head>
 <body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <div class="scroll-progress" aria-hidden="true"></div>
   <div class="site-wrap" id="inicio">
     <div class="ambient ambient-one" aria-hidden="true"></div>
     <div class="ambient ambient-two" aria-hidden="true"></div>
@@ -37,14 +46,19 @@
       <nav class="mobile-nav" id="mobile-nav" aria-label="Navegación móvil" hidden><a href="#proyectos">Proyectos</a><a href="#habilidades">Habilidades</a><a href="#sobre-mi">Sobre mí</a><a href="#contacto">Contacto</a></nav>
     </header>
 
-    <main>
+    <main id="contenido">
       <section class="hero section-pad" aria-labelledby="hero-title">
         <div class="hero-text">
-          <div class="eyebrow"><span class="eyebrow-dot"></span> HOLA, SOY RX <span class="eyebrow-line"></span> <span class="eyebrow-secondary">DESARROLLADOR</span></div>
-          <h1 id="hero-title">Ideas que<br />cobran <span class="gradient-text">vida</span><span class="hero-period">.</span></h1>
-          <p class="hero-description">Transformo ideas en experiencias digitales. Exploro el desarrollo web, los sistemas de software y el mundo de los videojuegos.</p>
-          <div class="hero-cta"><a class="button button-primary" href="#proyectos">Explorar mis proyectos <span aria-hidden="true">↗</span></a><a class="button button-secondary" href="https://github.com/yamix-rx" target="_blank" rel="noopener noreferrer">Mi GitHub <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .9a11.1 11.1 0 0 0-3.51 21.64c.56.1.76-.24.76-.53v-2.15c-3.1.67-3.76-1.32-3.76-1.32-.5-1.29-1.24-1.63-1.24-1.63-1.01-.7.08-.69.08-.69 1.12.08 1.71 1.15 1.71 1.15.99 1.69 2.59 1.2 3.22.91.1-.72.39-1.2.7-1.47-2.48-.28-5.09-1.24-5.09-5.5 0-1.21.44-2.19 1.15-2.96-.11-.28-.5-1.4.11-2.91 0 0 .94-.3 3.05 1.13a10.6 10.6 0 0 1 5.55 0c2.11-1.43 3.05-1.13 3.05-1.13.61 1.51.22 2.63.11 2.91.72.77 1.14 1.75 1.14 2.96 0 4.27-2.62 5.21-5.11 5.49.4.35.75 1.02.75 2.05v3.05c0 .3.2.64.77.53A11.1 11.1 0 0 0 12 .9Z"/></svg></a></div>
-          <div class="hero-footer"><span class="scroll-line" aria-hidden="true"></span><span>DESLIZA PARA EXPLORAR</span><span class="tiny-orbit" aria-hidden="true">✳</span> <span>WEB · SOFTWARE · 3D</span></div>
+          <div class="eyebrow"><span class="eyebrow-dot"></span> HOLA, SOY RX <span class="eyebrow-line"></span> <span class="eyebrow-secondary">DESARROLLADOR DE SOFTWARE · PERÚ</span></div>
+          <h1 id="hero-title">Del código<br />a la <span class="gradient-text">solución</span><span class="hero-period">.</span></h1>
+          <p class="hero-description">Soy estudiante de <strong>Ingeniería de Sistemas Computacionales</strong>. Desarrollo aplicaciones web y de escritorio, conectando interfaces cuidadas con lógica, APIs y bases de datos.</p>
+          <div class="hero-cta"><a class="button button-primary" href="#proyectos">Explorar mis proyectos <span aria-hidden="true">↗</span></a><a class="button button-secondary" href="#contacto">Hablemos <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .9a11.1 11.1 0 0 0-3.51 21.64c.56.1.76-.24.76-.53v-2.15c-3.1.67-3.76-1.32-3.76-1.32-.5-1.29-1.24-1.63-1.24-1.63-1.01-.7.08-.69.08-.69 1.12.08 1.71 1.15 1.71 1.15.99 1.69 2.59 1.2 3.22.91.1-.72.39-1.2.7-1.47-2.48-.28-5.09-1.24-5.09-5.5 0-1.21.44-2.19 1.15-2.96-.11-.28-.5-1.4.11-2.91 0 0 .94-.3 3.05 1.13a10.6 10.6 0 0 1 5.55 0c2.11-1.43 3.05-1.13 3.05-1.13.61 1.51.22 2.63.11 2.91.72.77 1.14 1.75 1.14 2.96 0 4.27-2.62 5.21-5.11 5.49.4.35.75 1.02.75 2.05v3.05c0 .3.2.64.77.53A11.1 11.1 0 0 0 12 .9Z"/></svg></a></div>
+          <div class="hero-proof" aria-label="Aspectos destacados">
+            <div><strong>06</strong><span>proyectos públicos</span></div>
+            <div><strong>Full-stack</strong><span>frontend + backend</span></div>
+            <div><strong>Web &amp; desktop</strong><span>soluciones diversas</span></div>
+          </div>
+          <div class="hero-footer"><span class="scroll-line" aria-hidden="true"></span><span>DESLIZA PARA EXPLORAR</span><span class="tiny-orbit" aria-hidden="true">✳</span> <span>REACT · NODE.JS · MYSQL</span></div>
         </div>
         <div class="hero-art" aria-label="Ilustración decorativa de una interfaz de desarrollo">
           <div class="orbit orbit-a" aria-hidden="true"></div><div class="orbit orbit-b" aria-hidden="true"></div>
@@ -55,9 +69,9 @@
               <div class="code-line"><em>01</em> <span class="code-purple">const</span> <span class="code-white">developer</span> = {</div>
               <div class="code-line"><em>02</em> &nbsp; name: <span class="code-green">'RX'</span>,</div>
               <div class="code-line"><em>03</em> &nbsp; focus: [</div>
-              <div class="code-line"><em>04</em> &nbsp; &nbsp; <span class="code-green">'Web'</span>,</div>
-              <div class="code-line"><em>05</em> &nbsp; &nbsp; <span class="code-green">'Software'</span>,</div>
-              <div class="code-line"><em>06</em> &nbsp; &nbsp; <span class="code-green">'Game Dev'</span></div>
+              <div class="code-line"><em>04</em> &nbsp; &nbsp; <span class="code-green">'React'</span>,</div>
+              <div class="code-line"><em>05</em> &nbsp; &nbsp; <span class="code-green">'Node.js'</span>,</div>
+              <div class="code-line"><em>06</em> &nbsp; &nbsp; <span class="code-green">'MySQL'</span></div>
               <div class="code-line"><em>07</em> &nbsp; ],</div>
               <div class="code-line"><em>08</em> &nbsp; mindset: <span class="code-green">'keep learning'</span></div>
               <div class="code-line"><em>09</em> };</div>
@@ -69,27 +83,65 @@
         </div>
       </section>
 
-      <div class="marquee" aria-hidden="true"><div class="marquee-track">DESARROLLO WEB <span>✳</span> SOFTWARE <span>✳</span> CREATIVIDAD <span>✳</span> VIDEOJUEGOS <span>✳</span> DESARROLLO WEB <span>✳</span> SOFTWARE <span>✳</span> CREATIVIDAD <span>✳</span> VIDEOJUEGOS <span>✳</span></div></div>
+      <div class="marquee" aria-hidden="true"><div class="marquee-track">REACT & TYPESCRIPT <span>✳</span> APIs CON NODE.JS <span>✳</span> MYSQL <span>✳</span> SOFTWARE EN C# <span>✳</span> REACT & TYPESCRIPT <span>✳</span> APIs CON NODE.JS <span>✳</span> MYSQL <span>✳</span> SOFTWARE EN C# <span>✳</span></div></div>
 
       <section class="section-pad projects-section" id="proyectos" aria-labelledby="projects-title">
-        <div class="section-top reveal"><div><p class="section-kicker"><span>01</span> / TRABAJOS DESTACADOS</p><h2 id="projects-title">Proyectos <span class="soft-text">seleccionados</span><span class="accent-dot">.</span></h2></div><p class="section-lead">Una muestra de lo que he desarrollado y aprendido en distintos proyectos.</p></div>
-        <div class="filter-bar reveal" role="group" aria-label="Filtrar proyectos"><button class="filter active" type="button" data-filter="all" aria-pressed="true">Todos <span>04</span></button><button class="filter" type="button" data-filter="web" aria-pressed="false">Web</button><button class="filter" type="button" data-filter="sistemas" aria-pressed="false">Sistemas</button><button class="filter" type="button" data-filter="iot" aria-pressed="false">IoT</button></div>
+        <div class="section-top reveal"><div><p class="section-kicker"><span>01</span> / PORTAFOLIO DE PROYECTOS</p><h2 id="projects-title">Código aplicado a <span class="soft-text">proyectos reales</span><span class="accent-dot">.</span></h2></div><p class="section-lead">Desde sistemas administrativos hasta experiencias web e IoT. Explora el código y cómo está construido cada proyecto.</p></div>
+        <div class="filter-bar reveal" role="group" aria-label="Filtrar proyectos"><button class="filter active" type="button" data-filter="all" aria-pressed="true">Todos <span>06</span></button><button class="filter" type="button" data-filter="web" aria-pressed="false">Web</button><button class="filter" type="button" data-filter="sistemas" aria-pressed="false">Sistemas</button><button class="filter" type="button" data-filter="iot" aria-pressed="false">IoT</button><button class="filter" type="button" data-filter="escritorio" aria-pressed="false">Escritorio</button></div>
+        <p class="filter-status visually-hidden" role="status" aria-live="polite">Mostrando 6 proyectos</p>
         <div class="projects-grid">
-          <article class="project-card reveal" data-category="sistemas"><div class="project-visual visual-attendance"><div class="visual-grid"></div><div class="ui-window"><div class="ui-top"><i></i><i></i><i></i><span>attendance / dashboard</span></div><div class="attendance-content"><div class="attendance-title"></div><div class="attendance-statrow"><b><span></span><span></span></b><b><span></span><span></span></b><b><span></span><span></span></b></div><div class="attendance-table"><i></i><i></i><i></i><i></i></div></div></div><div class="visual-number">01 / 04</div></div><div class="project-info"><div class="project-tags"><span>JavaScript</span><span>Node.js</span><span>MySQL</span></div><div class="project-heading"><h3>Control de asistencia</h3><a class="project-link" href="https://github.com/yamix-rx/SISTEMA-CONTROL-DE-ASISTENCIA" target="_blank" rel="noopener noreferrer" aria-label="Ver repositorio de Control de asistencia">↗</a></div><p>Sistema para gestionar y registrar la asistencia con tecnologías web y base de datos.</p></div></article>
-          <article class="project-card reveal" data-category="web"><div class="project-visual visual-chifa"><div class="visual-number">02 / 04</div><div class="chifa-art"><div class="chifa-round"></div><div class="chifa-inner"><span>CHINA<br />HOUSE</span><small>FOOD EXPERIENCE</small><div class="chifa-chopsticks"></div></div></div><div class="chifa-label">WEB EXPERIENCE</div></div><div class="project-info"><div class="project-tags"><span>HTML</span><span>Diseño web</span><span>Pedidos</span></div><div class="project-heading"><h3>China House</h3><a class="project-link" href="https://github.com/yamix-rx/Chifa_China_House_Web" target="_blank" rel="noopener noreferrer" aria-label="Ver repositorio de China House">↗</a></div><p>Experiencia web de pedidos para un restaurante, enfocada en su interfaz y navegación.</p></div></article>
-          <article class="project-card reveal" data-category="sistemas"><div class="project-visual visual-sales"><div class="visual-number">03 / 04</div><div class="sales-board"><div class="sales-top"><span>●</span><span>SALES OVERVIEW</span><span>⋮</span></div><div class="sales-heading">Analytics <small>↗ 12.8%</small></div><div class="sales-chart"><i style="--h:36%"></i><i style="--h:59%"></i><i style="--h:43%"></i><i style="--h:72%"></i><i style="--h:63%"></i><i style="--h:89%"></i><i style="--h:75%"></i><i style="--h:96%"></i></div><div class="sales-lines"><span></span><span></span></div></div></div><div class="project-info"><div class="project-tags"><span>TypeScript</span><span>Interfaz</span><span>Gestión</span></div><div class="project-heading"><h3>Gestión de ventas</h3><a class="project-link" href="https://github.com/yamix-rx/Interfaz-Sistema-Gestion-Ventas" target="_blank" rel="noopener noreferrer" aria-label="Ver repositorio de Gestión de ventas">↗</a></div><p>Proyecto de interfaz para un sistema de gestión de ventas y procesos comerciales.</p></div></article>
-          <article class="project-card reveal" data-category="iot"><div class="project-visual visual-iot"><div class="visual-number">04 / 04</div><div class="iot-circle circle-1"></div><div class="iot-circle circle-2"></div><div class="iot-circle circle-3"></div><div class="iot-center"><div class="iot-wave">〰</div><strong>MQTT</strong><small>LIVE DATA</small></div><div class="iot-satellite sat-1"></div><div class="iot-satellite sat-2"></div><div class="iot-satellite sat-3"></div></div><div class="project-info"><div class="project-tags"><span>JavaScript</span><span>MQTT</span><span>HiveMQ</span></div><div class="project-heading"><h3>Monitoreo de incubadora</h3><a class="project-link" href="https://github.com/yamix-rx/Arquitectura_Web_Monitoreo" target="_blank" rel="noopener noreferrer" aria-label="Ver repositorio de Monitoreo de incubadora">↗</a></div><p>Interfaz web para monitoreo de una incubadora mediante mensajería MQTT y HiveMQ.</p></div></article>
+          <article class="project-card reveal" data-category="sistemas"><div class="project-visual visual-attendance"><div class="visual-grid"></div><div class="ui-window"><div class="ui-top"><i></i><i></i><i></i><span>attendance / dashboard</span></div><div class="attendance-content"><div class="attendance-title"></div><div class="attendance-statrow"><b><span></span><span></span></b><b><span></span><span></span></b><b><span></span><span></span></b></div><div class="attendance-table"><i></i><i></i><i></i><i></i></div></div></div><div class="visual-number">01 / 06</div></div><div class="project-info"><div class="project-tags"><span>JavaScript</span><span>Node.js</span><span>MySQL</span></div><div class="project-heading"><h3>Control de asistencia</h3><a class="project-link" href="https://github.com/yamix-rx/SISTEMA-CONTROL-DE-ASISTENCIA" target="_blank" rel="noopener noreferrer" aria-label="Ver repositorio de Control de asistencia">↗</a></div><p>Plataforma con registros, horarios, personal, reportes y procesos de recursos humanos mediante Node.js y MySQL.</p></div></article>
+          <article class="project-card reveal" data-category="web"><div class="project-visual visual-chifa"><div class="visual-number">02 / 06</div><div class="chifa-art"><div class="chifa-round"></div><div class="chifa-inner"><span>CHINA<br />HOUSE</span><small>FOOD EXPERIENCE</small><div class="chifa-chopsticks"></div></div></div><div class="chifa-label">WEB EXPERIENCE</div></div><div class="project-info"><div class="project-tags"><span>HTML</span><span>Diseño web</span><span>Pedidos</span></div><div class="project-heading"><h3>China House</h3><a class="project-link" href="https://github.com/yamix-rx/Chifa_China_House_Web" target="_blank" rel="noopener noreferrer" aria-label="Ver repositorio de China House">↗</a></div><p>Experiencia web de pedidos para un restaurante, enfocada en su interfaz y navegación.</p></div></article>
+          <article class="project-card reveal" data-category="sistemas"><div class="project-visual visual-sales"><div class="visual-number">03 / 06</div><div class="sales-board"><div class="sales-top"><span>●</span><span>SALES OVERVIEW</span><span>⋮</span></div><div class="sales-heading">Analytics <small>↗ 12.8%</small></div><div class="sales-chart"><i style="--h:36%"></i><i style="--h:59%"></i><i style="--h:43%"></i><i style="--h:72%"></i><i style="--h:63%"></i><i style="--h:89%"></i><i style="--h:75%"></i><i style="--h:96%"></i></div><div class="sales-lines"><span></span><span></span></div></div></div><div class="project-info"><div class="project-tags"><span>React</span><span>TypeScript</span><span>Express</span><span>MySQL</span></div><div class="project-heading"><h3>Gestión de ventas</h3><a class="project-link" href="https://github.com/yamix-rx/Interfaz-Sistema-Gestion-Ventas" target="_blank" rel="noopener noreferrer" aria-label="Ver repositorio de Gestión de ventas">↗</a></div><p>Aplicación de gestión comercial con React, API Express y MySQL, con módulos de productos, clientes, ventas y reportes.</p></div></article>
+          <article class="project-card reveal" data-category="iot"><div class="project-visual visual-iot"><div class="visual-number">04 / 06</div><div class="iot-circle circle-1"></div><div class="iot-circle circle-2"></div><div class="iot-circle circle-3"></div><div class="iot-center"><div class="iot-wave">〰</div><strong>MQTT</strong><small>LIVE DATA</small></div><div class="iot-satellite sat-1"></div><div class="iot-satellite sat-2"></div><div class="iot-satellite sat-3"></div></div><div class="project-info"><div class="project-tags"><span>Next.js</span><span>TypeScript</span><span>MQTT</span></div><div class="project-heading"><h3>Monitoreo de incubadora</h3><a class="project-link" href="https://github.com/yamix-rx/Arquitectura_Web_Monitoreo" target="_blank" rel="noopener noreferrer" aria-label="Ver repositorio de Monitoreo de incubadora">↗</a></div><p>Panel de monitoreo de incubadora, con indicadores, gráficos, conexión MQTT y modo de simulación.</p></div></article>
+
+          <article class="project-card reveal" data-category="escritorio sistemas">
+            <div class="project-visual visual-modeling">
+              <div class="visual-number">05 / 06</div>
+              <div class="desktop-preview"><div class="desktop-top"><span>◉</span> Sistema de Gestión <span>— □ ×</span></div><div class="desktop-layout"><div class="desktop-side"><i></i><i></i><i></i><i></i></div><div class="desktop-main"><div class="desktop-title"></div><div class="desktop-data"><b></b><b></b><b></b></div><div class="desktop-rows"><i></i><i></i><i></i><i></i></div></div></div></div>
+              <span class="visual-watermark">C#</span>
+            </div>
+            <div class="project-info"><div class="project-tags"><span>C#</span><span>Windows Forms</span><span>Arquitectura por capas</span></div>
+              <div class="project-heading"><h3>Sistema comercial de escritorio</h3><a class="project-link" href="https://github.com/yamix-rx/Proyecto_Modelamiento" target="_blank" rel="noopener noreferrer" aria-label="Abrir código de Sistema comercial de escritorio">↗</a></div>
+              <p>Aplicación Windows Forms con pantallas de clientes, almacén, categorías y ventas; organizada por capas de datos, lógica y entidades.</p>
+            </div>
+          </article>
+          <article class="project-card reveal" data-category="escritorio sistemas">
+            <div class="project-visual visual-kitchen"><div class="visual-number">06 / 06</div>
+              <div class="kitchen-scene"><div class="kitchen-head"><span>✳</span> MOANSO / COCINA <span>● EN PREPARACIÓN</span></div><div class="kitchen-orders"><div><small>ORDEN 01</small><strong>EN PROCESO</strong><i></i><i></i></div><div><small>ORDEN 02</small><strong>PENDIENTE</strong><i></i><i></i></div><div><small>ORDEN 03</small><strong>LISTA</strong><i></i><i></i></div></div></div>
+            </div>
+            <div class="project-info"><div class="project-tags"><span>C#</span><span>Windows Forms</span><span>Gestión</span></div>
+              <div class="project-heading"><h3>Moanso P · Gestión de cocina</h3><a class="project-link" href="https://github.com/yamix-rx/Moanso_P" target="_blank" rel="noopener noreferrer" aria-label="Abrir código de Moanso P">↗</a></div>
+              <p>Proyecto de software de escritorio enfocado en la gestión de procesos de cocina, desarrollado en C# con estructura por capas.</p>
+            </div>
+          </article>
         </div>
         <div class="section-bottom reveal"><a href="https://github.com/yamix-rx?tab=repositories" target="_blank" rel="noopener noreferrer" class="text-link">Ver todos mis repositorios <span>↗</span></a></div>
       </section>
 
-      <section class="section-pad skills-section" id="habilidades" aria-labelledby="skills-title"><div class="section-top reveal"><div><p class="section-kicker"><span>02</span> / CAJA DE HERRAMIENTAS</p><h2 id="skills-title">Tecnologías con las <span class="soft-text">que trabajo</span><span class="accent-dot">.</span></h2></div><p class="section-lead">Herramientas y lenguajes que utilizo para desarrollar y seguir aprendiendo.</p></div><div class="skills-content reveal"><div class="skill-category"><p>DESARROLLO WEB</p><div class="skill-tags"><span>JavaScript</span><span>TypeScript</span><span>HTML & CSS</span><span>Node.js</span><span>Express</span></div></div><div class="skill-category"><p>SOFTWARE Y DATOS</p><div class="skill-tags"><span>C#</span><span>MySQL</span><span>MQTT</span><span>HiveMQ</span></div></div><div class="skill-category"><p>CREACIÓN INTERACTIVA</p><div class="skill-tags"><span>Unity</span><span>Desarrollo 3D</span><span>Git & GitHub</span></div></div></div></section>
+      <section class="section-pad skills-section" id="habilidades" aria-labelledby="skills-title">
+        <div class="section-top reveal"><div><p class="section-kicker"><span>02</span> / STACK TECNOLÓGICO</p><h2 id="skills-title">Herramientas para <span class="soft-text">construir ideas</span><span class="accent-dot">.</span></h2></div><p class="section-lead">Tecnologías que aplico en proyectos y sigo perfeccionando en mi formación.</p></div>
+        <div class="skills-content reveal">
+          <div class="skill-category"><div class="skill-icon">01 / UI</div><p>FRONTEND</p><div class="skill-tags"><span>React</span><span>Next.js</span><span>JavaScript</span><span>TypeScript</span><span>HTML & CSS</span><span>Tailwind</span><span>Bootstrap</span></div></div>
+          <div class="skill-category"><div class="skill-icon">02 / API</div><p>BACKEND Y BASES DE DATOS</p><div class="skill-tags"><span>Node.js</span><span>Express</span><span>MySQL</span><span>Java</span><span>MQTT</span></div></div>
+          <div class="skill-category"><div class="skill-icon">03 / DEV</div><p>SOFTWARE Y HERRAMIENTAS</p><div class="skill-tags"><span>C#</span><span>Windows Forms</span><span>Git & GitHub</span><span>Vercel</span><span>Unity 3D</span><span>VS Code</span></div></div>
+        </div>
+      </section>
 
-      <section class="section-pad about-section" id="sobre-mi" aria-labelledby="about-title"><div class="about-card reveal"><div class="about-profile"><div class="avatar-ring"><img src="https://avatars.githubusercontent.com/u/187081218?v=4" alt="Avatar público del perfil de GitHub yamix-rx" loading="lazy" /></div><span class="about-id">@yamix-rx</span></div><div class="about-copy"><p class="section-kicker"><span>03</span> / UN POCO SOBRE MÍ</p><h2 id="about-title">Curiosidad, código<br />y <span class="gradient-text">creatividad.</span></h2><p>Me interesa construir proyectos que combinen diseño, lógica y una buena experiencia de usuario. Desarrollo soluciones web y sistemas, y también exploro la creación de videojuegos en 3D con Unity y C#.</p><p>Este espacio reúne parte de mi trabajo y seguirá creciendo con cada nuevo proyecto.</p><a href="https://github.com/yamix-rx" target="_blank" rel="noopener noreferrer" class="text-link">Conoce mi trabajo en GitHub <span>↗</span></a></div></div></section>
+      <section class="section-pad approach-section" id="enfoque" aria-labelledby="approach-title">
+        <div class="section-top reveal"><div><p class="section-kicker"><span>03</span> / MI ENFOQUE</p><h2 id="approach-title">Pensar. Crear. <span class="soft-text">Mejorar.</span><span class="accent-dot">.</span></h2></div><p class="section-lead">Me gusta entender un problema antes de convertirlo en una solución de software.</p></div>
+        <div class="approach-grid">
+          <div class="approach-card reveal"><span class="approach-number">01</span><div class="approach-icon" aria-hidden="true">◎</div><h3>Comprender</h3><p>Identificar necesidades, organizar funcionalidades y diseñar un flujo claro para las personas.</p></div>
+          <div class="approach-card reveal"><span class="approach-number">02</span><div class="approach-icon" aria-hidden="true">⌘</div><h3>Construir</h3><p>Conectar interfaces, lógica y datos cuidando la estructura y la mantenibilidad del código.</p></div>
+          <div class="approach-card reveal"><span class="approach-number">03</span><div class="approach-icon" aria-hidden="true">↗</div><h3>Evolucionar</h3><p>Probar, aprender y mejorar cada proyecto de manera incremental.</p></div>
+        </div>
+      </section>
 
-      <section class="section-pad contact-section" id="contacto" aria-labelledby="contact-title"><div class="contact-card reveal"><div class="contact-glow" aria-hidden="true"></div><p class="section-kicker"><span>04</span> / CONECTEMOS</p><h2 id="contact-title">¿Construimos<br /><span>algo genial?</span></h2><p>Siempre hay una nueva idea que explorar. Puedes encontrarme y conocer mis proyectos en GitHub.</p><a class="button button-contact" href="https://github.com/yamix-rx" target="_blank" rel="noopener noreferrer">Visitar mi GitHub <span aria-hidden="true">↗</span></a><div class="contact-star" aria-hidden="true">✳</div></div></section>
+      <section class="section-pad about-section" id="sobre-mi" aria-labelledby="about-title"><div class="about-card reveal"><div class="about-profile"><div class="avatar-ring"><img src="https://avatars.githubusercontent.com/u/187081218?v=4" alt="Avatar público del perfil de GitHub yamix-rx" loading="lazy" /></div><span class="about-id">@yamix-rx</span></div><div class="about-copy"><p class="section-kicker"><span>04</span> / UN POCO SOBRE MÍ</p><h2 id="about-title">Curiosidad, código<br />y <span class="gradient-text">creatividad.</span></h2><p>Soy <strong>RX</strong>, estudiante de Ingeniería de Sistemas Computacionales en Perú. Me apasiona el desarrollo de software: desde crear interfaces con React hasta diseñar APIs, trabajar con MySQL y construir aplicaciones de escritorio en C#.</p><p>Me gusta resolver problemas, aprender tecnologías nuevas y convertir las ideas en productos que se puedan utilizar. También exploro el desarrollo de videojuegos 3D con Unity.</p><a href="https://github.com/yamix-rx" target="_blank" rel="noopener noreferrer" class="text-link">Conoce mi trabajo en GitHub <span>↗</span></a></div></div></section>
+
+      <section class="section-pad contact-section" id="contacto" aria-labelledby="contact-title"><div class="contact-card reveal"><div class="contact-glow" aria-hidden="true"></div><p class="section-kicker"><span>05</span> / CONTACTO DIRECTO</p><h2 id="contact-title">¿Tienes una<br /><span>idea en mente?</span></h2><p>Estoy abierto a conversar sobre prácticas profesionales, colaboración y nuevos proyectos. Escríbeme directamente.</p><div class="contact-actions"><a class="button button-contact" href="mailto:yensiagredaramirez@gmail.com?subject=Contacto%20desde%20tu%20portafolio">Escribirme por correo <span aria-hidden="true">↗</span></a><a class="button contact-outline" href="https://github.com/yamix-rx" target="_blank" rel="noopener noreferrer">Ver GitHub ↗</a></div><a class="contact-email" href="mailto:yensiagredaramirez@gmail.com">yensiagredaramirez@gmail.com</a><div class="contact-star" aria-hidden="true">✳</div></div></section>
     </main>
-    <footer class="footer"><a class="brand" href="#inicio"><span class="brand-icon">R<span>X</span></span><span class="brand-slash">/</span><span class="brand-label">portfolio</span></a><span>© <span id="year">2026</span> RX. Hecho con creatividad y código.</span><a href="#inicio">Volver arriba ↑</a></footer>
+    <footer class="footer"><a class="brand" href="#inicio"><span class="brand-icon">R<span>X</span></span><span class="brand-slash">/</span><span class="brand-label">portfolio</span></a><span>© <span id="year">2026</span> RX · Ingeniería de Sistemas Computacionales · Perú.</span><a href="#inicio">Volver arriba ↑</a></footer>
   </div>
 </body>
 </html>
